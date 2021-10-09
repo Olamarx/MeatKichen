@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+height: 40px;
+    letter-spacing: 2px;
+padding-bottom: 14px;
+padding-top: 14px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+}
+
+footer {
+    background-color: greenyellow;
+    height: 100px;
+}
+
+h1{
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    border-width: 1px;
+    padding: 8px 16px;
+    background-color: rgba(255, 0, 0, 0.527); border-radius: 8px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+nav a {
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 14px;
+padding-bottom: 35px;
+font-weight: 700;
+background-color: hsla(0, 0%, 0%, 0.555);
+
+}
+
+nav a:hover {
+background-color: rgba(255, 255, 255, 0.541);
+}
